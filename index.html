@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <title>Generation Dummies</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/> 
+    <link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
 </head>
 
 <body>
@@ -22,7 +23,11 @@
         <a class="link" href="https://generationdummies.bandcamp.com/" target="_blank">Bandcamp</a>
     </div>
 
+<!-- Use the element. You may use it before the lite-yt-embed JS is executed. -->
+<lite-youtube videoid="Rn3BVe4abk8" playlabel="Play: Gang Shit Music Video"></lite-youtube>
+
     <!-- Javascript -->
+    <script src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script  src="index.js"></script>
 </body>
